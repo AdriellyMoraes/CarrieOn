@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_editar_atividade"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_opcoes_humores"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/text_opcoes_humores"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/img_opcoes_humores"
+        android:layout_marginStart="86dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/transparent"
+        android:enabled="false"
+        android:gravity="center_vertical"
+        android:maxLength="20"
+        android:textColor="@color/colorPurplee"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/img_opcoes_humores"
+        android:layout_marginEnd="18dp"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+    <ImageView
+        android:id="@+id/img_edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/img_confAtu"
+        android:layout_centerVertical="true"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageView
+        android:id="@+id/img_confAtu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="63dp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/icon_confirmar" />
+
+    <ImageView
+        android:id="@+id/img_cancel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/img_delete"
+        android:layout_alignTop="@+id/img_opcoes_humores"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_cancel" />
+
+</RelativeLayout>

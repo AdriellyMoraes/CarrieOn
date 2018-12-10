@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="290dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/amethysta"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Sobre nós"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/amethysta"
+        android:text="  CarrieOn foi desenvolvido por:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textViewAdrielly"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/amethysta"
+        android:text="Adrielly Moraes Lustoza - discente do Instituto Federal do Amazonas no curso de informática.
+    Email: adriellymoraes88@gmail.com"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textViewRaquel"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAdrielly"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amethysta"
+        android:text="Raquel de Albuquerque Maciel - discente do Instituto Federal do Amazonas no curso de informática.
+    Email: raqumaciel@gmail.com"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>

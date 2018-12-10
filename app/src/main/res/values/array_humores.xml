@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nome_humores">
+        <item>Aborrecido</item>
+        <item>Apaixonado</item>
+        <item>Assustado</item>
+        <item>Atrapalhado</item>
+        <item>Cansado</item>
+        <item>Carinhoso</item>
+        <item>Chateado</item>
+        <item>Chocado</item>
+        <item>Contente</item>
+        <item>Curioso</item>
+        <item>Deprimido</item>
+        <item>Desapegado</item>
+        <item>Doente</item>
+        <item>Entediado</item>
+        <item>Estupefato</item>
+        <item>Faminto</item>
+        <item>Feliz</item>
+        <item>Fofo</item>
+        <item>Indiferente</item>
+        <item>Infeliz</item>
+        <item>Irado</item>
+        <item>Lastimoso</item>
+        <item>Maravilhoso</item>
+        <item>Nerd</item>
+        <item>Sem palavras</item>
+        <item>Sensacional</item>
+        <item>Sério</item>
+        <item>Sonolento</item>
+        <item>Sorridente</item>
+        <item>Sortudo</item>
+        <item>Surpreso</item>
+        <item>Triste</item>
+        <item>Uau</item>
+    </string-array>
+    <array name="imagens_humores">
+        <item>@drawable/aborrecido</item>
+        <item>@drawable/apaixonado</item>
+        <item>@drawable/assustado</item>
+        <item>@drawable/desconcertado</item>
+        <item>@drawable/cansado</item>
+        <item>@drawable/carinhoso</item>
+        <item>@drawable/chateado</item>
+        <item>@drawable/chocado</item>
+        <item>@drawable/contente</item>
+        <item>@drawable/curioso</item>
+        <item>@drawable/deprimido</item>
+        <item>@drawable/desapegado</item>
+        <item>@drawable/doente</item>
+        <item>@drawable/entediado</item>
+        <item>@drawable/estupefato</item>
+        <item>@drawable/faminto</item>
+        <item>@drawable/feliz</item>
+        <item>@drawable/fofo</item>
+        <item>@drawable/indiferente</item>
+        <item>@drawable/infeliz</item>
+        <item>@drawable/irado</item>
+        <item>@drawable/lastimoso</item>
+        <item>@drawable/maravilhoso</item>
+        <item>@drawable/nerd</item>
+        <item>@drawable/sem_palavras</item>
+        <item>@drawable/sensacional</item>
+        <item>@drawable/serio</item>
+        <item>@drawable/sonolento</item>
+        <item>@drawable/sorridente</item>
+        <item>@drawable/sortudo</item>
+        <item>@drawable/surpreso</item>
+        <item>@drawable/triste</item>
+        <item>@drawable/uau</item>
+    </array>
+
+</resources>

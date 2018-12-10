@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nome_atividade">
+        <item>Acampar</item>
+        <item>Aniversário</item>
+        <item>Atraso</item>
+        <item>Banheiro</item>
+        <item>Banho</item>
+        <item>Boliche</item>
+        <item>Café da manhã</item>
+        <item>Chuva</item>
+        <item>Ciclismo</item>
+        <item>Compras</item>
+        <item>Compromisso</item>
+        <item>Computador</item>
+        <item>Conserto</item>
+        <item>Contas</item>
+        <item>Cozinhar</item>
+        <item>Dentista</item>
+        <item>Descanso</item>
+        <item>Festa</item>
+        <item>Fotografia</item>
+        <item>Ginástica</item>
+        <item>Jantar</item>
+        <item>Jardinagem</item>
+        <item>Karaokê</item>
+        <item>Lanche</item>
+        <item>Leitura</item>
+        <item>Ligação</item>
+        <item>Limpeza</item>
+        <item>Lista de compras</item>
+        <item>Maquiagem</item>
+        <item>Música</item>
+        <item>Passeio de ônibus</item>
+        <item>Passeio de carro</item>
+        <item>Passeio de moto</item>
+        <item>Patinação</item>
+        <item>Piquenique</item>
+        <item>Brincadeiras</item>
+        <item>Tomando sorvete</item>
+        <item>Redes sociais</item>
+        <item>Asssistindo televisão</item>
+        <item>Instrumento musical</item>
+        <item>Trabalhando</item>
+        <item>Viagem</item>
+    </string-array>
+
+    <array name="img_atividades">
+        <item>@drawable/acampamento</item>
+        <item>@drawable/aniversario</item>
+        <item>@drawable/atraso</item>
+        <item>@drawable/banheiro</item>
+        <item>@drawable/banho</item>
+        <item>@drawable/boliche</item>
+        <item>@drawable/cafe_da_manha</item>
+        <item>@drawable/chuva</item>
+        <item>@drawable/ciclismo</item>
+        <item>@drawable/compras</item>
+        <item>@drawable/compromisso</item>
+        <item>@drawable/computador</item>
+        <item>@drawable/conserto</item>
+        <item>@drawable/contas</item>
+        <item>@drawable/cozinhar</item>
+        <item>@drawable/dente</item>
+        <item>@drawable/descanso</item>
+        <item>@drawable/festa</item>
+        <item>@drawable/foto</item>
+        <item>@drawable/ginastica</item>
+        <item>@drawable/jantar</item>
+        <item>@drawable/jardinagem</item>
+        <item>@drawable/karaoke</item>
+        <item>@drawable/lanche</item>
+        <item>@drawable/leitura</item>
+        <item>@drawable/ligacao</item>
+        <item>@drawable/limpeza</item>
+        <item>@drawable/lista_compras</item>
+        <item>@drawable/maquiagem</item>
+        <item>@drawable/musica</item>
+        <item>@drawable/onibus</item>
+        <item>@drawable/passeio_carro</item>
+        <item>@drawable/passeio_moto</item>
+        <item>@drawable/patinacao</item>
+        <item>@drawable/picnic</item>
+        <item>@drawable/pipa</item>
+        <item>@drawable/sorvete</item>
+        <item>@drawable/tablet</item>
+        <item>@drawable/televisao</item>
+        <item>@drawable/tocando</item>
+        <item>@drawable/trabalho</item>
+        <item>@drawable/viagem</item>
+    </array>
+</resources>

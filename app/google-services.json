@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "372125603852",
+    "firebase_url": "https://carrieon-c2ee1.firebaseio.com",
+    "project_id": "carrieon-c2ee1",
+    "storage_bucket": "carrieon-c2ee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372125603852:android:a2c965116e8bec09",
+        "android_client_info": {
+          "package_name": "com.example.aluno.carrieon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372125603852-thmddqevqqci4s279s41gcc0cv671ms8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aluno.carrieon",
+            "certificate_hash": "49e91aaa875a3251e4c938aa1141ea1dba0166f2"
+          }
+        },
+        {
+          "client_id": "372125603852-bsb01j7s8pvohkjg02m9sn12j5bp21ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyG9Ivtnxg_7_3xGlvUATETYULrUVRseI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372125603852-bsb01j7s8pvohkjg02m9sn12j5bp21ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

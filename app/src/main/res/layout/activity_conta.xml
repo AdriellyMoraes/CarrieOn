@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorAccent">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+        <RelativeLayout
+            android:id="@+id/layout_conta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:context=".Telas.ContaActivity">
+
+            <RelativeLayout
+                android:id="@+id/relative_editarPessoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/appbar"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtSenha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Senha:"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtDataNasc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/txtNome"
+                    android:layout_alignBottom="@+id/edDataNasc"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Nascimento:"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/edEmail"
+                    android:layout_alignStart="@+id/txtDataNasc"
+                    android:fontFamily="@font/amethysta"
+                    android:text="E-mail*"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/edNome"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Nome:"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edDataNasc"
+                    android:layout_width="268dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="120dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edEmail"
+                    android:layout_width="268dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="60dp"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edNome"
+                    android:layout_width="268dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edSenha"
+                    android:layout_width="268dp"
+                    android:layout_height="40dp"
+                    android:layout_alignTop="@+id/txtDataNasc"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="0dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:password="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="300dp">
+
+                <Button
+                    android:id="@+id/btnDados"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relative_editarPessoa"
+                    android:layout_marginLeft="220dp"
+                    android:background="@drawable/dialog_shape_layout"
+                    android:elevation="5dp"
+                    android:text="Alterar dados"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    tools:ignore="NotSibling" />
+
+                <Button
+                    android:id="@+id/btnExcluirConta"
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="49dp"
+                    android:background="@drawable/dialog_shape_layout"
+                    android:backgroundTint="@color/color_red"
+                    android:elevation="5dp"
+                    android:fontFamily="@font/amethysta"
+                    android:text="Excluir conta"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    app:layout_anchorGravity="right|center" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:text="   *Caso queira mudar de e-mail, entre em contato conosco!"
+        android:textColor="@color/colorGreen" />
+</android.support.design.widget.CoordinatorLayout>

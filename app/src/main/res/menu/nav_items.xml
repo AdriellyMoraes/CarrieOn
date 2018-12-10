@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_registro"
+        android:icon="@drawable/ic_regis"
+        android:title="@string/nav_regis" />
+    <item
+        android:id="@+id/nav_calend"
+        android:icon="@drawable/ic_calend"
+        android:title="@string/nav_calend" />
+    <item
+        android:id="@+id/nav_grafico"
+        android:icon="@drawable/ic_graph"
+        android:title="@string/nav_graph" />
+    <item
+        android:id="@+id/nav_mais"
+        android:icon="@drawable/ic_more"
+        android:title="@string/nav_more" />
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aluno.carrieon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/carrie"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Telas.Introducao">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Telas.EntradaActivity" />
+        <activity android:name=".Telas.HomeActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Telas.CadastroActivity" />
+        <activity android:name=".Telas.ContaActivity" />
+        <activity android:name=".Telas.ListaHumoresActivity" />
+        <activity android:name=".Telas.ListaAtividadesActivity" />
+        <activity android:name=".Telas.LembreteActivity" />
+
+        <receiver android:name=".Telas.AlertReceiver" />
+
+        <activity android:name=".Telas.LembrarSenhaDialog" />
+        <activity android:name=".Telas.TermosDeUso" />
+        <activity android:name=".Telas.EnviarEmailActivity"></activity>
+    </application>
+
+</manifest>

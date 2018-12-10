@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_notacao"
+    android:layout_width="180dp"
+    android:layout_height="150dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/shape_layout"
+    android:elevation="5dp">
+
+    <TextView
+        android:id="@+id/editDescricao"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorGray"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDataCriacao"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/amethysta"
+        android:textColor="@color/colorGray"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/z"
+        android:layout_width="67dp"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="119dp"
+        android:background="@drawable/dialog_shape_layout"
+        android:backgroundTint="@android:color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgeAtiv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgeHumor"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="6dp" />
+
+</RelativeLayout>

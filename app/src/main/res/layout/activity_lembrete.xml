@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_lembrete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dialog"
+    tools:context=".Telas.LembreteActivity">
+
+    <Button
+        android:id="@+id/btn_lemb_ativ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="415dp"
+        android:background="@drawable/dialog_shape_layout"
+        android:fontFamily="@font/amethysta"
+        android:text="Redefinir horário"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/txt_lemb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:elevation="0dp"
+        android:fontFamily="@font/amethysta"
+        android:gravity="center_horizontal"
+        android:text="Alarme não definido!"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/amethysta"
+        android:gravity="center_horizontal"
+        android:text="Notificação"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_lemb_canc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/dialog_shape_layout"
+        android:backgroundTint="@color/color_red"
+        android:fontFamily="@font/amethysta"
+        android:text="Cancelar notificação"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <ImageView
+        android:id="@+id/img_lemb_close"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        app:srcCompat="@drawable/icon_cancel_red" />
+
+</RelativeLayout>
